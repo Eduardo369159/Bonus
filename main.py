@@ -2,8 +2,7 @@ import pandas as pd
 import os
 
 # Diretório onde os arquivos Excel estão localizados
-diretorio = 'Z:\\PRICING\\Gabriel Torres\\BÔNUS_PARCEIRO\\ABRIL'
-
+diretorio = 'Z:\\CONTROLLER\\CAMPANHAS\\AGENTE\\2024\\202404'
 # Lista para armazenar os DataFrames de todos os arquivos Excel
 dfs = []
 
