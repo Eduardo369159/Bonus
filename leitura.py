@@ -1,8 +1,10 @@
 import pandas as pd
 from listas import Listar
+from leitura import Moldar
 import os
 import re
 
+mo = Moldar()
 ls = Listar()
 
 cam = 'Z:\\CONTROLLER\\CAMPANHAS\\AGENTE\\'
