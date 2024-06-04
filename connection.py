@@ -29,7 +29,7 @@ class Db():
           return conn.execute(text(query),values)
       
     def inserir(self,data):
-        RB_RELATORIO_BANCOS = Table('tbBonus_teste',self.metadata,autoload_with=self.__engine)
+        RB_RELATORIO_BANCOS = Table('TbBonus_real',self.metadata,autoload_with=self.__engine)
         stmt = insert(RB_RELATORIO_BANCOS).values(data)
         with self.__engine.begin() as conn: 
             conn.execute(stmt)
